@@ -74,3 +74,81 @@ AiCodeReview/
 │   └── package.json
 │
 └── README.md
+
+⚙️ Installation
+Clone Repository
+git clone https://github.com/yourusername/AiCodeReview.git
+cd AiCodeReview
+Backend Setup
+cd BackEnd
+npm install
+
+Create .env
+
+GROQ_API_KEY=your_api_key
+
+Run Backend
+
+npm start
+
+Backend URL:
+
+http://localhost:3000
+Frontend Setup
+cd Frontend
+npm install
+npm run dev
+
+Frontend URL:
+
+http://localhost:5173
+🔗 API Endpoint
+Review Code
+POST /ai/get-review
+Request Body
+{
+  "code": "your code here"
+}
+🚀 Deployment
+Frontend
+Vercel
+Backend
+Render
+Live Backend
+https://aicodereview-5adw.onrender.com
+📌 How It Works
+User Writes Code
+        ↓
+Frontend Sends Request
+        ↓
+Backend API Receives Code
+        ↓
+AI Processes Code
+        ↓
+Review Generated
+        ↓
+Feedback Displayed
+🔒 Environment Variables
+
+Backend .env
+
+GROQ_API_KEY=your_api_key
+🧠 Future Improvements
+Multi-language support
+Code history tracking
+Authentication system
+Export review report
+Team collaboration
+AI scoring system
+👩‍💻 Author
+
+Tiya Rajput
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork the project
+📢 Share with developers
+💡 Code Smarter • Review Faster • Build Better
